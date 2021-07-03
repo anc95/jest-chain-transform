@@ -33,7 +33,7 @@ module.exports = {
 }
 ```
 
-Jest will tranform allfiles that match `\\.[jt]sx?$` by `path-of-your-custom-transformer` and `'ts-jest'` in turn.
+Jest will transform all files that match `\\.[jt]sx?$` by `path-of-your-custom-transformer` and `'ts-jest'` in turn.
 
 If you need to pass extra option to transform, you can write config as follow
 
