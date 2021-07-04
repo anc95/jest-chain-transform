@@ -29,12 +29,9 @@
   },
   "devDependencies": {
     "@babel/preset-env": "^7.14.7",
-    "@jest/test-utils": "^0.0.0",
     "@types/jest": "^26.0.23",
     "jest": "^27.0.6",
-    "typescript": "^4.3.5"
-  },
-  "dependencies": {
+    "typescript": "^4.3.5",
     "ts-jest": "^27.0.3"
   }
 }
