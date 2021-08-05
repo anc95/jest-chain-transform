@@ -2,8 +2,8 @@
   "name": "jest-chain-transform",
   "version": "0.0.3",
   "description": "Support for multiple transform scripts of jest",
-  "main": "./lib/index.js",
-  "typings": "./lib/index.d.ts",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
     "test": "srcipt/test.sh",
     "build": "tsc"
