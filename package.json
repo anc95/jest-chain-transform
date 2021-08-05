@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
+    "install": "npm run build",
     "test": "srcipt/test.sh",
     "build": "tsc"
   },
