@@ -1,6 +1,6 @@
 {
   "name": "jest-chain-transform",
-  "version": "0.0.4-alpha.0",
+  "version": "0.0.4-alpha.2",
   "description": "Support for multiple transform scripts of jest",
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
