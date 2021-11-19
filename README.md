@@ -22,7 +22,7 @@ yarn add jest-chain-transform -D
 module.exports = {
   transform: {
     "\\.[jt]sx?$": [
-      'jest-chain-transform'
+      'jest-chain-transform',
       {
         transformers: [
           'path-of-your-custom-transformer', 'ts-jest'
@@ -42,7 +42,7 @@ If you need to pass extra option to transform, you can write config as follow
 module.exports = {
   transform: {
     "\\.[jt]sx?$": [
-      'jest-chain-transform'
+      'jest-chain-transform',
       {
         transformers: [
           ['path-of-your-custom-transformer', { ... }],
