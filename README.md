@@ -2,7 +2,7 @@
 [![Node.js Package](https://github.com/anc95/jest-chain-transform/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/anc95/jest-chain-transform/actions/workflows/npm-publish.yml)
 [![Node.js CI](https://github.com/anc95/jest-chain-transform/actions/workflows/node.js.yml/badge.svg)](https://github.com/anc95/jest-chain-transform/actions/workflows/node.js.yml)
 
-`jest-chain-transform` enables jest can transform file by mutiple transformers.
+`jest-chain-transform` enables jest can transform file by multiple transformers.
 
 ## install
 
