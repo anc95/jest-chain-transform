@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/anc95/jest-chain-transform#readme",
   "peerDependencies": {
-    "@jest/transform": "^27.0.6"
+    "@jest/transform": "^29.4.1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.14.7",
