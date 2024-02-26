@@ -1,10 +1,10 @@
 module.exports = {
   getCacheKey: () => {
-    return 'abc'
+    return 'abc';
   },
   process: (sourceText) => {
     return {
-      code: `exports.c=1;${sourceText}`
-    }
-  }
-}
+      code: `exports.c=1;${sourceText}`,
+    };
+  },
+};
