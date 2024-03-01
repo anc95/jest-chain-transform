@@ -9,6 +9,9 @@
     "test": "srcipt/test.sh",
     "build": "tsup src/index.ts --format cjs --target node20 --dts"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anc95/jest-chain-transform.git"
