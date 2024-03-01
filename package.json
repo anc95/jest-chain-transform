@@ -1,6 +1,6 @@
 {
   "name": "jest-chain-transform",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Support for multiple transform scripts of jest",
   "main": "./dist/index.cjs",
   "typings": "./dist/index.d.cts",
