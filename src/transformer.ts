@@ -41,8 +41,8 @@ const importTransformer = async (path: string, config: Record<string, any>) => {
   const transformer = await requireOrImportModule<Transformer>(path);
 
   if (!transformer.process && !transformer.processAsync) {
-    if (transformer.createTransformer) {
-      return transformer.createTransformer(config || {});
+    if ((transformer as any).createTransformer) {
+      return (transformer as any).createTransformer(config || {});
     }
 
     return null;
@@ -156,7 +156,7 @@ const createTransformer = (): Transformer<Config> => {
       sourceText: string,
       sourcePath: string,
       options: TransformOptions<Config>
-    ): string => {
+    ): any => {
       const transformers = getFlattenTransformers(options);
 
       return transformers.reduce(
